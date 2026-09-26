@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary-container":"#65470e","secondary-fixed-dim":"#7bd0ff","surface-dim":"#0f131d","tertiary":"#c1dcff","secondary-fixed":"#c4e7ff","on-surface-variant":"#d2c4b4","on-primary-fixed-variant":"#5f4107","surface-container-low":"#171b26","outline-variant":"#4e4539","on-primary-fixed":"#281900","primary-container":"#e2b774","on-tertiary-fixed":"#001d35","secondary-container":"#00a6e0","error":"#ffb4ab","surface":"#0f131d","secondary":"#7bd0ff","background":"#0f131d","on-primary":"#432c00","surface-bright":"#353944","surface-tint":"#ebc07c","inverse-primary":"#79591f","primary-fixed-dim":"#ebc07c","tertiary-container":"#90c2fa","surface-container":"#1c1f2a","on-tertiary-fixed-variant":"#03497a","on-secondary-container":"#00374d","surface-container-highest":"#313540","on-secondary":"#00354a","error-container":"#93000a","on-background":"#dfe2f1","primary-fixed":"#ffdeae","tertiary-fixed":"#d0e4ff","surface-variant":"#313540","inverse-on-surface":"#2c303b","on-error":"#690005","primary":"#ffd38f","surface-container-high":"#262a35","on-tertiary-container":"#105081","on-secondary-fixed":"#001e2c","surface-container-lowest":"#0a0e18","on-secondary-fixed-variant":"#004c69","on-surface":"#dfe2f1","tertiary-fixed-dim":"#9ccaff","outline":"#9b8f80","on-tertiary":"#003257","inverse-surface":"#dfe2f1","on-error-container":"#ffdad6"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter-mobile":"1rem","margin-mobile":"1.25rem","space-xs":"0.375rem","gutter":"1.5rem","space-lg":"2rem","space-sm":"0.75rem","margin":"3rem","space-xl":"3.5rem","margin-tablet":"2rem","space-md":"1.25rem"},fontFamily:{"body-md":["Plus Jakarta Sans"],"display-hero-mobile":["Newsreader"],"body-lg":["Plus Jakarta Sans"],"story-lead":["Newsreader"],"display-hero":["Newsreader"],"headline-md":["Newsreader"],"label-sm":["Plus Jakarta Sans"],"headline-lg-mobile":["Newsreader"],"body-sm":["Plus Jakarta Sans"],"headline-sm":["Newsreader"],"headline-lg":["Newsreader"],"label-md":["Plus Jakarta Sans"]},fontSize:{"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"display-hero-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.015em","fontWeight":"400"}],"body-lg":["17px",{"lineHeight":"28px","fontWeight":"400"}],"story-lead":["20px",{"lineHeight":"32px","letterSpacing":"0.01em","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"400"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"500"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.015em","fontWeight":"400"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"600"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface/75 backdrop-blur-2xl shadow-[0_16px_40px_-8px_rgba(3,7,18,0.75)]"><div class="h-20 w-full px-margin-mobile md:px-margin-tablet lg:px-margin max-w-[1280px] mx-auto flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md shrink-0"><img alt="Story of the Day Emblem" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDz_cY7KbiLXfMrR2F8e2gw2r9UEtrFWgdk1i9EI9yKjMSX46pgTslIZHFjPScAeblB9UuIaEY4XAbFM5hiaDrjsrXarg1AbQA4WT34qovzMjCZQlKAhvduu-208g_utCVGhq65PNIqE3GvwU8NhxPQb6uMAxO8LS_VraaTEnpJ4V4fApOsgzzqQwKDOAQBhkXNB09S_dXq8zscCIlrL0YMrqexTYIv_Jxr6rb-59oejf2-nJ_ktmpWCg"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Story of the Day</span></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-full"><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="todays-story" href="#">Today's Story</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="explore-library" href="#">Explore Library</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="categories" href="#">Categories</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="my-shelf" href="#">My Shelf</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-full" data-path="sleep-timer" href="#">Sleep Timer</a></nav><div class="flex items-center gap-space-md justify-end"><div class="relative hidden sm:block w-48 md:w-60"><span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px] pointer-events-none">search</span><input class="w-full bg-surface-container-low/80 text-on-surface placeholder:text-outline font-body-sm text-body-sm pl-9 pr-space-md py-space-xs rounded-full focus:outline-none focus:ring-2 focus:ring-secondary/30 transition-all" placeholder="Search twilight stories..." type="text"/></div><button aria-label="Sleep timer indicator" class="flex items-center justify-center w-9 h-9 rounded-full bg-surface-container-low text-secondary hover:text-secondary-fixed transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">bedtime</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-primary/20 shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGJZmMIYL454zP8fjO3tWNPfPOJXC_bsHRBtkWqMKJ2DcHznnq3VJNwrdRuDBjL4NOhBUWo6jH0sybRxnHYAyWf61NvuFABDal1yeAo-yFU_X4iBN6awxRPwwBvK4UFdQ6JCHuhXXOD_kmK-t2CjC5Wa8xEDR73HPU7wA9Z6Aq4RLMn86vrwM0YJaYj6blU48_wWGqjqLjQLAtGn1BlmCAO1de8tQm1Nyu5RP-PKWZLUEZyZxbiNe26g"/></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full relative overflow-hidden pb-space-xl">
+<!-- Celestial Atmospheric Glow Orbs -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[720px] h-[520px] bg-primary/10 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+<div class="absolute top-[38rem] -left-48 w-[420px] h-[420px] bg-secondary-container/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+<div class="absolute top-[52rem] -right-40 w-[480px] h-[480px] bg-tertiary-container/10 rounded-full blur-[130px] pointer-events-none -z-10"></div>
+<!-- Theater Stage Container -->
+<div class="w-full max-w-[1240px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin pt-space-md">
+<!-- Top Meta Breadcrumb Strip -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-1" data-path="todays-story" href="#">
+<span class="material-symbols-outlined text-[18px]">bedtime</span>
+<span>Tonight's Slumber Selection</span>
+</a>
+<span class="text-outline">/</span>
+<span class="text-tertiary">Cape Whispers Cycle</span>
+<span class="text-outline">/</span>
+<span class="text-on-surface font-semibold">Tale #482</span>
+</div>
+<!-- Quick Action Badges & Ultra Dark Mode Trigger -->
+<div class="flex items-center gap-space-xs">
+<button class="group flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container-high/70 hover:bg-surface-container-highest text-secondary-fixed font-label-sm text-label-sm transition-all shadow-sm" id="dimmer-toggle" type="button">
+<span class="material-symbols-outlined text-[16px] group-hover:rotate-12 transition-transform">brightness_medium</span>
+<span id="dimmer-status">Night Dimmer: Warm</span>
+</button>
+<button aria-label="Favorite story" class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+<button aria-label="Share story" class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-secondary transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+</div>
+</div>
+<!-- Main Stage: Asymmetric 7 / 5 Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-space-lg items-start">
+<!-- Left Column: Cinematic Artwork Display & Glow Hearth (7 Cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Artwork Card with Layered Scrim -->
+<div class="relative group rounded-xl overflow-hidden shadow-2xl bg-surface-container-lowest">
+<div class="aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden relative">
+<img alt="Lighthouse on misty coastal cliff beneath a crescent moon and starlit milky way sky" class="w-full h-full object-cover transform scale-100 group-hover:scale-[1.02] transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPobTbnU5KeiqKDZs4phirc9L-FXWUlqNrrY2JjVGkhvq_8iszyak-kst1bN5AiKIL8u18cefkYpUgvAv6cEJcJuAq50T4_2bZgCSQApllP8GzPoG8ozuJdWFbjrhfIc2drLKdXt7QtqpcjP1cUau4jzcZ8ypnCEhdkGtggLjFhcN-3k3CiNI-ZauVeoZkdUeQj1Ne43drJSasBUoTuEL-d2azPoWqU3JPPQ0BZjbqbQRlKzQi7BiwVA"/>
+<!-- Vignette & Glow Overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-surface-dim/30 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-dim/60 via-transparent to-surface-dim/40"></div>
+<!-- Top Badges Cluster -->
+<div class="absolute top-space-md left-space-md right-space-md flex flex-wrap items-center justify-between gap-space-xs pointer-events-none">
+<div class="flex flex-wrap items-center gap-space-xs pointer-events-auto">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-primary-container/90 text-on-primary-container font-label-sm text-label-sm shadow-md backdrop-blur-md">
+<span class="material-symbols-outlined text-[14px]">stars</span>
+<span>Today's Featured Tale</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container-highest/80 text-secondary-fixed font-label-sm text-label-sm backdrop-blur-md">
+<span class="material-symbols-outlined text-[14px]">headphones</span>
+<span>Spatial Audio (3D Binaural)</span>
+</span>
+</div>
+<span class="pointer-events-auto inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-surface-container-lowest/80 text-tertiary font-label-sm text-label-sm backdrop-blur-md">
+<span class="material-symbols-outlined text-[14px]">mic</span>
+<span>Calming Voice • 48kHz</span>
+</span>
+</div>
+<!-- In-Image Ambient Floating Badge (Bottom Corner) -->
+<div class="absolute bottom-space-md left-space-md right-space-md flex items-end justify-between pointer-events-none">
+<div class="pointer-events-auto bg-surface-dim/85 backdrop-blur-xl px-space-sm py-space-xs rounded-lg max-w-xs shadow-lg">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-primary animate-ping"></div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Live Binaural Stream</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Delta frequency sync 1.8 Hz active</p>
+</div>
+<div class="pointer-events-auto flex items-center gap-1 bg-surface-dim/80 backdrop-blur-md px-space-sm py-1 rounded-full text-secondary font-label-sm text-label-sm shadow-md">
+<span class="material-symbols-outlined text-[16px]">waves</span>
+<span>Coastline Echo</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Ambient Soundscape Mixer Module -->
+<div class="bg-surface-container/70 backdrop-blur-xl p-space-md rounded-xl shadow-lg">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">equalizer</span>
+<h3 class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Dream Soundscape Layer</h3>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Blends beneath narration</span>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-xs" id="soundscape-presets">
+<!-- Ocean Waves (Active) -->
+<button class="soundscape-btn flex flex-col items-center gap-1.5 p-space-sm rounded-lg bg-primary-container/20 text-primary transition-all text-center" data-sound="ocean" type="button">
+<span class="material-symbols-outlined text-[24px]">tsunami</span>
+<span class="font-label-sm text-label-sm font-semibold">Ocean Waves</span>
+<span class="font-body-sm text-body-sm text-primary/70">65% Vol</span>
+</button>
+<!-- Gentle Rain -->
+<button class="soundscape-btn flex flex-col items-center gap-1.5 p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all text-center" data-sound="rain" type="button">
+<span class="material-symbols-outlined text-[24px]">rainy</span>
+<span class="font-label-sm text-label-sm font-semibold">Gentle Rain</span>
+<span class="font-body-sm text-body-sm text-outline">Off</span>
+</button>
+<!-- Crackling Fireplace -->
+<button class="soundscape-btn flex flex-col items-center gap-1.5 p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all text-center" data-sound="fire" type="button">
+<span class="material-symbols-outlined text-[24px]">local_fire_department</span>
+<span class="font-label-sm text-label-sm font-semibold">Fire Hearth</span>
+<span class="font-body-sm text-body-sm text-outline">Off</span>
+</button>
+<!-- Night Crickets -->
+<button class="soundscape-btn flex flex-col items-center gap-1.5 p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all text-center" data-sound="crickets" type="button">
+<span class="material-symbols-outlined text-[24px]">nature</span>
+<span class="font-label-sm text-label-sm font-semibold">Misty Pines</span>
+<span class="font-body-sm text-body-sm text-outline">Off</span>
+</button>
+</div>
+<!-- Soundscape Volume Slider -->
+<div class="mt-space-sm pt-space-xs flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-outline">volume_mute</span>
+<div class="relative w-full h-1.5 bg-surface-container-highest rounded-full overflow-hidden cursor-pointer">
+<div class="absolute left-0 top-0 h-full w-[65%] bg-gradient-to-r from-secondary to-primary rounded-full"></div>
+</div>
+<span class="material-symbols-outlined text-[18px] text-primary">volume_up</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Player Controls, Progress & Sleep Rituals (5 Cols) -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<!-- Story Metadata Card -->
+<div class="bg-surface-container-low/90 backdrop-blur-2xl p-space-lg rounded-xl shadow-xl">
+<div class="mb-space-md">
+<div class="flex items-center gap-2 mb-2">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary-fixed"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Chapter 2 of 4 • 28 Minutes</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight mb-2 leading-tight">
+              The Keeper of Whispering Cape
+            </h1>
+<p class="font-story-lead text-story-lead text-on-surface-variant italic mb-space-xs">
+              "The beacon swings once every seven seconds, sweeping salt fog and sleepless dreams."
+            </p>
+<div class="flex items-center gap-2 mt-space-sm text-on-surface">
+<span class="font-label-md text-label-md text-on-surface">Written by <strong class="text-tertiary font-semibold">Elena Frost</strong></span>
+<span class="text-outline">•</span>
+<span class="font-label-md text-label-md text-on-surface">Narrated by <strong class="text-primary font-semibold">Julian Vance</strong></span>
+</div>
+</div>
+<!-- Audio Waveform / Scrubber Component -->
+<div class="bg-surface-container-lowest/80 p-space-md rounded-xl mb-space-md">
+<!-- Time Readout -->
+<div class="flex justify-between items-baseline mb-space-xs">
+<div class="flex items-baseline gap-1.5">
+<span class="font-label-md text-label-md text-primary font-semibold tracking-wider">14:32</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">elapsed</span>
+</div>
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[14px]">timelapse</span>
+<span class="font-label-md text-label-md font-semibold tracking-wider">-14:13</span>
+</div>
+</div>
+<!-- Stylized Waveform Scrubber (Inline SVG for ultra crisp nocturnal rendering) -->
+<div class="relative w-full cursor-pointer py-2 group" id="waveform-scrubber" title="Click to seek">
+<svg class="w-full h-12" fill="none" preserveaspectratio="none" viewbox="0 0 300 48">
+<!-- Played portion (Sky Blue to Warm Amber gradient) -->
+<defs>
+<lineargradient id="wavePlayedGrad" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0%" stop-color="#00a6e0"></stop>
+<stop offset="60%" stop-color="#7bd0ff"></stop>
+<stop offset="100%" stop-color="#ffd38f"></stop>
+</lineargradient>
+<lineargradient id="waveRemainingGrad" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0%" stop-color="#313540"></stop>
+<stop offset="100%" stop-color="#1c1f2a"></stop>
+</lineargradient>
+</defs>
+<!-- 50 Waveform Bars -->
+<!-- Played waveform up to ~150px (50%) -->
+<g fill="url(#wavePlayedGrad)">
+<rect height="16" rx="1.5" width="3" x="0" y="16"></rect>
+<rect height="24" rx="1.5" width="3" x="6" y="12"></rect>
+<rect height="32" rx="1.5" width="3" x="12" y="8"></rect>
+<rect height="20" rx="1.5" width="3" x="18" y="14"></rect>
+<rect height="36" rx="1.5" width="3" x="24" y="6"></rect>
+<rect height="12" rx="1.5" width="3" x="30" y="18"></rect>
+<rect height="28" rx="1.5" width="3" x="36" y="10"></rect>
+<rect height="40" rx="1.5" width="3" x="42" y="4"></rect>
+<rect height="20" rx="1.5" width="3" x="48" y="14"></rect>
+<rect height="16" rx="1.5" width="3" x="54" y="16"></rect>
+<rect height="32" rx="1.5" width="3" x="60" y="8"></rect>
+<rect height="44" rx="1.5" width="3" x="66" y="2"></rect>
+<rect height="24" rx="1.5" width="3" x="72" y="12"></rect>
+<rect height="16" rx="1.5" width="3" x="78" y="16"></rect>
+<rect height="28" rx="1.5" width="3" x="84" y="10"></rect>
+<rect height="36" rx="1.5" width="3" x="90" y="6"></rect>
+<rect height="12" rx="1.5" width="3" x="96" y="18"></rect>
+<rect height="24" rx="1.5" width="3" x="102" y="12"></rect>
+<rect height="40" rx="1.5" width="3" x="108" y="4"></rect>
+<rect height="20" rx="1.5" width="3" x="114" y="14"></rect>
+<rect height="32" rx="1.5" width="3" x="120" y="8"></rect>
+<rect height="16" rx="1.5" width="3" x="126" y="16"></rect>
+<rect height="28" rx="1.5" width="3" x="132" y="10"></rect>
+<rect height="36" rx="1.5" width="3" x="138" y="6"></rect>
+<rect height="20" rx="1.5" width="3" x="144" y="14"></rect>
+</g>
+<!-- Remaining Unplayed Bars -->
+<g fill="url(#waveRemainingGrad)">
+<rect height="12" rx="1.5" width="3" x="150" y="18"></rect>
+<rect height="24" rx="1.5" width="3" x="156" y="12"></rect>
+<rect height="36" rx="1.5" width="3" x="162" y="6"></rect>
+<rect height="20" rx="1.5" width="3" x="168" y="14"></rect>
+<rect height="28" rx="1.5" width="3" x="174" y="10"></rect>
+<rect height="16" rx="1.5" width="3" x="180" y="16"></rect>
+<rect height="40" rx="1.5" width="3" x="186" y="4"></rect>
+<rect height="32" rx="1.5" width="3" x="192" y="8"></rect>
+<rect height="20" rx="1.5" width="3" x="198" y="14"></rect>
+<rect height="12" rx="1.5" width="3" x="204" y="18"></rect>
+<rect height="24" rx="1.5" width="3" x="210" y="12"></rect>
+<rect height="36" rx="1.5" width="3" x="216" y="6"></rect>
+<rect height="28" rx="1.5" width="3" x="222" y="10"></rect>
+<rect height="16" rx="1.5" width="3" x="228" y="16"></rect>
+<rect height="40" rx="1.5" width="3" x="234" y="4"></rect>
+<rect height="20" rx="1.5" width="3" x="240" y="14"></rect>
+<rect height="32" rx="1.5" width="3" x="246" y="8"></rect>
+<rect height="24" rx="1.5" width="3" x="252" y="12"></rect>
+<rect height="12" rx="1.5" width="3" x="258" y="18"></rect>
+<rect height="20" rx="1.5" width="3" x="264" y="14"></rect>
+<rect height="32" rx="1.5" width="3" x="270" y="8"></rect>
+<rect height="24" rx="1.5" width="3" x="276" y="12"></rect>
+<rect height="16" rx="1.5" width="3" x="282" y="16"></rect>
+<rect height="8" rx="1.5" width="3" x="288" y="20"></rect>
+<rect height="4" rx="1.5" width="3" x="294" y="22"></rect>
+</g>
+<!-- Scrubber Head Marker -->
+<circle cx="147" cy="24" fill="#ffd38f" filter="drop-shadow(0 0 6px rgba(255,211,143,0.8))" r="5"></circle>
+</svg>
+</div>
+<!-- Chapter Marker Pinpoint Row -->
+<div class="flex items-center justify-between text-outline text-[11px] pt-1">
+<span>Ch. 1 (0:00)</span>
+<span class="text-primary font-semibold">Ch. 2: The Frequency (12:10)</span>
+<span>Ch. 3 (19:40)</span>
+<span>Slumber Drift (24:15)</span>
+</div>
+</div>
+<!-- Playback Controls Cluster -->
+<div class="flex items-center justify-between gap-space-xs px-space-xs mb-space-lg">
+<!-- Chapter Prev -->
+<button aria-label="Previous Chapter" class="w-10 h-10 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">skip_previous</span>
+</button>
+<!-- Replay 15s -->
+<button aria-label="Replay 15 seconds" class="w-11 h-11 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors relative" type="button">
+<span class="material-symbols-outlined text-[22px]">export_notes</span>
+</button>
+<!-- Primary Glowing Play Head Button (Master) -->
+<div class="relative flex items-center justify-center">
+<div class="absolute inset-0 rounded-full bg-primary-container/40 blur-xl animate-pulse"></div>
+<button aria-label="Play or Pause Story" class="relative w-16 h-16 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-[0_0_24px_rgba(226,183,116,0.5)] hover:scale-105 active:scale-95 transition-all" id="master-play-btn" type="button">
+<span class="material-symbols-outlined text-[32px]" id="play-icon" style="font-variation-settings: 'FILL' 1;">pause</span>
+</button>
+</div>
+<!-- Forward 15s -->
+<button aria-label="Forward 15 seconds" class="w-11 h-11 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[22px]">apps</span>
+</button>
+<!-- Chapter Next -->
+<button aria-label="Next Chapter" class="w-10 h-10 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">skip_next</span>
+</button>
+</div>
+<!-- Speed & Sleep Timer Dual Deck -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-sm border-t border-surface-container-highest/60">
+<!-- Playback Speed Control -->
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">speed</span>
+                  Voice Pace
+                </span>
+<span class="font-label-sm text-label-sm text-primary font-semibold" id="speed-label">0.9x Relaxed</span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-lowest p-1 rounded-full">
+<button class="speed-btn flex-1 py-1 text-center font-label-sm text-label-sm rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-speed="0.75x" type="button">0.75</button>
+<button class="speed-btn flex-1 py-1 text-center font-label-sm text-label-sm rounded-full bg-primary-container text-on-primary-container font-semibold transition-colors" data-speed="0.9x (Relaxed)" type="button">0.9</button>
+<button class="speed-btn flex-1 py-1 text-center font-label-sm text-label-sm rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-speed="1.0x (Standard)" type="button">1.0</button>
+<button class="speed-btn flex-1 py-1 text-center font-label-sm text-label-sm rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-speed="1.2x" type="button">1.2</button>
+</div>
+</div>
+<!-- Sleep Timer Control -->
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bedtime</span>
+                  Sleep Timer
+                </span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold" id="timer-label">30 Min Fade</span>
+</div>
+<div class="relative">
+<select class="w-full appearance-none bg-surface-container-lowest text-on-surface font-label-sm text-label-sm py-2 pl-3 pr-8 rounded-full focus:outline-none focus:ring-1 focus:ring-secondary/40 cursor-pointer" id="sleep-timer-select">
+<option value="15 min">15 minutes (Quick Nap)</option>
+<option selected="" value="30 min">30 minutes (Standard Slumber)</option>
+<option value="45 min">45 minutes (Deep Rest)</option>
+<option value="End of Chapter">End of Chapter (14m remaining)</option>
+<option value="Smart Fade Out">Smart Fade Out (Sleep Sensor)</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-outline text-[16px] pointer-events-none">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Bookmark Moment Floating Strip -->
+<div class="mt-space-md pt-space-sm flex items-center justify-between bg-surface-container/60 p-space-sm rounded-lg">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">bookmark_add</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Heard a passage you love?</span>
+</div>
+<button class="px-space-sm py-1 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-sm text-label-sm transition-colors flex items-center gap-1" type="button">
+<span>Pin at 14:32</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Editorial Deep Dive Tabs Section -->
+<div class="mt-space-xl">
+<!-- Interactive Tabs Header -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm border-b border-surface-container-highest pb-space-xs mb-space-lg">
+<div class="flex items-center gap-space-xs" id="detail-tabs">
+<button class="tab-trigger px-space-md py-space-xs rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold transition-all" data-tab="synopsis" type="button">
+            Story Synopsis
+          </button>
+<button class="tab-trigger px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" data-tab="narrator" type="button">
+            Narrator &amp; Voice Acoustics
+          </button>
+<button class="tab-trigger px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" data-tab="transcript" type="button">
+            Soothing Transcript
+          </button>
+<button class="tab-trigger px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" data-tab="sleepnotes" type="button">
+            Sleep Science Notes
+          </button>
+</div>
+<!-- Ambient Reading Indicator -->
+<div class="hidden md:flex items-center gap-2 text-outline font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">menu_book</span>
+<span>Slow Cadence • 110 WPM</span>
+</div>
+</div>
+<!-- Tab Content: Story Synopsis (Default) -->
+<div class="tab-pane block" id="tab-synopsis">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-space-lg">
+<!-- Editorial Column (8 Cols) -->
+<div class="lg:col-span-8 space-y-space-md">
+<div class="bg-surface-container/40 p-space-lg rounded-xl">
+<h2 class="font-headline-md text-headline-md text-primary mb-space-sm">
+                About Tonight's Journey
+              </h2>
+<p class="font-story-lead text-story-lead text-on-surface mb-space-md leading-relaxed">
+                Perched above the obsidian waves of the North Atlantic, Whispering Cape has stood guard since 1888. Tonight, we follow Arthur, the final lighthouse keeper, as he tends to the brass clockwork lantern under the canopy of an unbroken starry ceiling.
+              </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-space-md leading-relaxed">
+                As midnight slips into the pre-dawn stillness of 03:00 AM, the wind settles into a soft rhythm against the stone walls. In this chapter, Arthur tunes into a phantom Morse broadcast from sixty miles across the fjord—not a signal of emergency, but an antique astronomical almanac reading star positions to ships adrift in the dark.
+              </p>
+<!-- Thematic Tags & Sleep Cues -->
+<div class="flex flex-wrap gap-2 pt-space-xs">
+<span class="px-space-sm py-1 bg-surface-container-high rounded-full font-label-sm text-label-sm text-secondary">
+                  # Coastal Solitude
+                </span>
+<span class="px-space-sm py-1 bg-surface-container-high rounded-full font-label-sm text-label-sm text-primary">
+                  # Starlight Geometry
+                </span>
+<span class="px-space-sm py-1 bg-surface-container-high rounded-full font-label-sm text-label-sm text-tertiary">
+                  # Old Brass Mechanics
+                </span>
+<span class="px-space-sm py-1 bg-surface-container-high rounded-full font-label-sm text-label-sm text-on-surface-variant">
+                  # No Plot Jumps
+                </span>
+<span class="px-space-sm py-1 bg-surface-container-high rounded-full font-label-sm text-label-sm text-on-surface-variant">
+                  # Gentle Wind White Noise
+                </span>
+</div>
+</div>
+<!-- Narrator Vignette Card -->
+<div class="bg-surface-container-low/70 p-space-md rounded-xl flex flex-col sm:flex-row items-center gap-space-md">
+<img class="w-20 h-20 rounded-full object-cover shrink-0 shadow-lg" data-alt="Close portrait of Julian Vance, a soft-spoken middle aged man with gentle warm eyes wearing a midnight blue woolen sweater in a dimly lit studio with warm amber acoustic foam." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdfUlbBifI4DDgU2PIOKZyVrLp9T3F0EvzCtHzhLL7_8WL26PKw8unrAdBG06pfVSRae6ht5dg1IDaYp26ka95q7fD0QTTU3b3wKUJM-Cz0JLZdGT8ALIkElBPvn97rzuD0rw7AGry6ycsSPiXFhfnl-UTC9LpAbjJXb2Q966oGH8am67r5vh4SOit7VOx49UH0sTfjN44O9v1vDI9AHcL7KJOwiNGKw7dEhK7uHsw0PmD-eltkfC5Vg"/>
+<div class="flex-1 text-center sm:text-left">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Julian Vance</h4>
+<p class="font-label-sm text-label-sm text-secondary mb-1">Master Audio Storyteller • 120+ Bedtime Narrations</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Julian brings a velvety, deliberate cadence calibrated to trigger parasympathetic down-regulation within 12 minutes of playback.</p>
+</div>
+<button class="shrink-0 px-space-md py-2 rounded-full bg-surface-container-high text-primary hover:bg-surface-container-highest font-label-sm text-label-sm transition-colors" type="button">
+                View Profile
+              </button>
+</div>
+</div>
+<!-- Right Aside: Up Next & Night Shelf (4 Cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<!-- Up Next Card -->
+<div class="bg-surface-container/60 p-space-md rounded-xl">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">Up Next in Queue</span>
+<span class="font-label-sm text-label-sm text-outline">Tomorrow Night</span>
+</div>
+<div class="group relative rounded-lg overflow-hidden bg-surface-container-low mb-space-sm">
+<div class="aspect-[16/9] w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A vintage steam locomotive glowing with soft amber carriage windows crossing a snowy mountain viaduct under an emerald aurora borealis and a luminous moon." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5qr27uSbJY-H2f-WqYYFqlmWpe6mKh_UoCxvwgEioHm0CMX4tqdcivk8YqcUdn_LrYbMMmB8uMHOZEHfLuHdEHwMkfuGe8s4oeEDQf42mhNIftO8csmEUiVwJUOpC6ZXvce_aFDA6pB38p2zDPLPtyNJxswWq5pyfafG1kqVgrErPOeyeAfK5AJdwTSECwVIUUsu99Mv_cNqtKQMFObnseOtw3AFad0eEzZ5lUOV0Yy60oyqR--ldjA"/>
+</div>
+<div class="p-space-sm">
+<h4 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                    The Midnight Express to Starlight Peaks
+                  </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                    An unhurried sleeper carriage ride through Scandinavian snowfields with muffled rhythmic track cadences.
+                  </p>
+<div class="flex items-center justify-between mt-space-sm pt-space-xs text-outline font-label-sm text-label-sm">
+<span>34 mins • Deep Sleep</span>
+<button class="text-primary hover:underline flex items-center gap-1" type="button">
+<span>Queue</span>
+<span class="material-symbols-outlined text-[14px]">playlist_add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Ambient Bedtime Hygiene Tip -->
+<div class="bg-surface-container-lowest/90 p-space-md rounded-xl flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px] shrink-0">nights_stay</span>
+<div>
+<h4 class="font-label-md text-label-md text-on-surface font-semibold mb-1">Acoustic Slumber Tip</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  Keeping device brightness below 10% and placing your phone face-down helps the pineal gland release natural melatonin while listening.
+                </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Tab Content: Narrator Details (Hidden by default, toggled via JS) -->
+<div class="tab-pane hidden" id="tab-narrator">
+<div class="bg-surface-container/40 p-space-lg rounded-xl">
+<h3 class="font-headline-md text-headline-md text-primary mb-space-sm">Acoustic Specifications</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+            This recording was captured in a treated room with an RT60 reverberation decay under 0.15s using a vintage Neumann U67 tube microphone. Frequency peaks above 6kHz have been gently rolled off to minimize sibilance that triggers autonomic nervous arousal.
+          </p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md text-center">
+<div class="p-space-md bg-surface-container-low rounded-lg">
+<span class="font-headline-sm text-headline-sm text-primary block">1.8 Hz</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Delta Brainwave Pulse</span>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-lg">
+<span class="font-headline-sm text-headline-sm text-secondary block">42 dB</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Average Whisper Level</span>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-lg">
+<span class="font-headline-sm text-headline-sm text-tertiary block">Warm Wood</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Equalizer Profile</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Tab Content: Transcript (Hidden by default) -->
+<div class="tab-pane hidden" id="tab-transcript">
+<div class="bg-surface-container/40 p-space-lg rounded-xl space-y-space-md font-story-lead text-story-lead text-on-surface-variant leading-relaxed">
+<p><span class="text-primary font-semibold">[12:10]</span> The spiral staircase of Whispering Cape has seventy-four granite steps. When the moon climbs above the shoals, each step catches an ellipse of silver.</p>
+<p><span class="text-primary font-semibold">[13:05]</span> Arthur places his brass oil-can on the workbench. The gear teeth of the rotator mesh with a rhythmic, low clicking—clack... clack... clack... Like a clock made for giants.</p>
+<p class="text-on-surface bg-surface-container-highest/40 p-space-sm rounded-lg"><span class="text-primary font-semibold">[14:32 - Currently Playing]</span> "Far across the water," Julian's voice drops into a soft murmur, "the North Sea turns into a mirror for Ursa Major. Every light on the mainland has drifted into sleep."</p>
+<p><span class="text-outline">[16:00]</span> He sits on the green velvet armchair beside the lantern casing. The radio receiver hums at 144 Megahertz, a warm electrical sigh...</p>
+</div>
+</div>
+<!-- Tab Content: Sleep Notes (Hidden by default) -->
+<div class="tab-pane hidden" id="tab-sleepnotes">
+<div class="bg-surface-container/40 p-space-lg rounded-xl">
+<h3 class="font-headline-md text-headline-md text-primary mb-space-sm">Cognitive Shuffling Guidance</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+            This episode uses the 'Gentle Anchor' cognitive method. Rather than an intense storyline that provokes anticipation, Julian describes static sensory textures—the chill of polished brass, the gentle smell of cedar shavings, the repetitive stroke of ocean swells against granite.
+          </p>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>No unexpected loud sounds or sound-effect shocks</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Vocal tone deepens gradually over 28 minutes</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Final 4 minutes are pure ocean swells and distant foghorn echo</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- Inline Script for Interactive Micro-States -->
+<script>
+    // Play / Pause Toggle Interaction
+    const playBtn = document.getElementById('master-play-btn');
+    const playIcon = document.getElementById('play-icon');
+    let isPlaying = true;
+
+    playBtn?.addEventListener('click', () => {
+      isPlaying = !isPlaying;
+      if (isPlaying) {
+        playIcon.textContent = 'pause';
+        playBtn.classList.add('shadow-[0_0_24px_rgba(226,183,116,0.5)]');
+      } else {
+        playIcon.textContent = 'play_arrow';
+        playBtn.classList.remove('shadow-[0_0_24px_rgba(226,183,116,0.5)]');
+      }
+    });
+
+    // Speed Selection Pills
+    const speedButtons = document.querySelectorAll('.speed-btn');
+    const speedLabel = document.getElementById('speed-label');
+    speedButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        speedButtons.forEach(b => {
+          b.className = 'speed-btn flex-1 py-1 text-center font-label-sm text-label-sm rounded-full text-on-surface-variant hover:text-on-surface transition-colors';
+        });
+        btn.className = 'speed-btn flex-1 py-1 text-center font-label-sm text-label-sm rounded-full bg-primary-container text-on-primary-container font-semibold transition-colors';
+        if (speedLabel) {
+          speedLabel.textContent = btn.getAttribute('data-speed');
+        }
+      });
+    });
+
+    // Soundscape Presets Selection
+    const soundButtons = document.querySelectorAll('.soundscape-btn');
+    soundButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        soundButtons.forEach(b => {
+          b.className = 'soundscape-btn flex flex-col items-center gap-1.5 p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all text-center';
+          const subText = b.querySelector('.font-body-sm');
+          if (subText) subText.textContent = 'Off';
+        });
+        btn.className = 'soundscape-btn flex flex-col items-center gap-1.5 p-space-sm rounded-lg bg-primary-container/20 text-primary transition-all text-center';
+        const activeSub = btn.querySelector('.font-body-sm');
+        if (activeSub) activeSub.textContent = 'Active (65%)';
+      });
+    });
+
+    // Tab Switching Logic
+    const tabTriggers = document.querySelectorAll('.tab-trigger');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+
+    tabTriggers.forEach(trigger => {
+      trigger.addEventListener('click', () => {
+        const target = trigger.getAttribute('data-tab');
+        
+        tabTriggers.forEach(t => {
+          t.className = 'tab-trigger px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all';
+        });
+        trigger.className = 'tab-trigger px-space-md py-space-xs rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold transition-all';
+
+        tabPanes.forEach(pane => {
+          pane.classList.add('hidden');
+          pane.classList.remove('block');
+        });
+
+        const activePane = document.getElementById('tab-' + target);
+        if (activePane) {
+          activePane.classList.remove('hidden');
+          activePane.classList.add('block');
+        }
+      });
+    });
+
+    // Sleep Timer Dropdown Sync
+    const timerSelect = document.getElementById('sleep-timer-select');
+    const timerLabel = document.getElementById('timer-label');
+    timerSelect?.addEventListener('change', (e) => {
+      if (timerLabel) {
+        timerLabel.textContent = e.target.value;
+      }
+    });
+
+    // Night Dimmer Mode Toggle
+    const dimmerToggle = document.getElementById('dimmer-toggle');
+    const dimmerStatus = document.getElementById('dimmer-status');
+    let isUltraDark = false;
+
+    dimmerToggle?.addEventListener('click', () => {
+      isUltraDark = !isUltraDark;
+      if (isUltraDark) {
+        document.body.classList.add('brightness-[0.75]', 'contrast-125');
+        dimmerStatus.textContent = 'Night Dimmer: Ultra Dark';
+        dimmerToggle.classList.add('bg-primary-container/30', 'text-primary');
+      } else {
+        document.body.classList.remove('brightness-[0.75]', 'contrast-125');
+        dimmerStatus.textContent = 'Night Dimmer: Warm';
+        dimmerToggle.classList.remove('bg-primary-container/30', 'text-primary');
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest text-on-surface-variant py-space-xl mt-space-xl"><div class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin max-w-[1280px] mx-auto"><div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-space-lg"><div class="md:col-span-1"><div class="flex items-center gap-space-sm mb-space-sm"><span class="material-symbols-outlined text-primary text-[24px]">auto_awesome</span><span class="font-headline-sm text-headline-sm text-on-surface">Story of the Day</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Atmospheric bedtime listening designed to slow racing minds, deepen calm, and welcome rest through timeless prose.</p></div><div><h4 class="font-label-md text-label-md text-primary uppercase tracking-wider mb-space-sm">Bedtime Tools</h4><ul class="space-y-space-xs font-body-sm text-body-sm"><li><a class="hover:text-on-surface transition-colors" data-path="sleep-timer" href="#">Smart Sleep Timer</a></li><li><a class="hover:text-on-surface transition-colors" data-path="soundscapes" href="#">Ambient Star Soundscapes</a></li><li><a class="hover:text-on-surface transition-colors" data-path="binaural-beats" href="#">Delta Waves &amp; Frequencies</a></li><li><a class="hover:text-on-surface transition-colors" data-path="night-mode-guide" href="#">Melatonin &amp; Screen Guide</a></li></ul></div><div><h4 class="font-label-md text-label-md text-primary uppercase tracking-wider mb-space-sm">Night Journeys</h4><ul class="space-y-space-xs font-body-sm text-body-sm"><li><a class="hover:text-on-surface transition-colors" data-path="todays-story" href="#">Tonight's Feature</a></li><li><a class="hover:text-on-surface transition-colors" data-path="explore-library" href="#">Cosmic Mythologies</a></li><li><a class="hover:text-on-surface transition-colors" data-path="categories" href="#">Rain &amp; Forest Solitude</a></li><li><a class="hover:text-on-surface transition-colors" data-path="narrators" href="#">Warm Narrator Voices</a></li></ul></div><div><h4 class="font-label-md text-label-md text-primary uppercase tracking-wider mb-space-sm">Night Rest Sanctuary</h4><div class="flex flex-wrap gap-space-xs"><span class="inline-flex items-center gap-1 px-space-sm py-1 bg-surface-container rounded-full text-secondary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[14px]">dark_mode</span> Dim Light Safe</span><span class="inline-flex items-center gap-1 px-space-sm py-1 bg-surface-container rounded-full text-primary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[14px]">volume_down</span> Calibrated Audio</span><span class="inline-flex items-center gap-1 px-space-sm py-1 bg-surface-container rounded-full text-tertiary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[14px]">schedule</span> Sleep Fader</span></div></div></div><div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-outline"><p>© 2025 Story of the Day Inc. Rest peacefully.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" data-path="privacy-promise" href="#">Privacy &amp; Slumber</a><a class="hover:text-on-surface transition-colors" data-path="audio-standards" href="#">Acoustic Science</a><a class="hover:text-on-surface transition-colors" data-path="help-center" href="#">Night Support</a></div></div></div></footer></body></html>
